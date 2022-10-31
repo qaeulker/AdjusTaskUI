@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-31T08:53:28.953Z",
+        "line": 4,
+        "name": "User should search a word on the webpage",
+        "description": "",
+        "id": "adjust-task;user-should-search-a-word-on-the-webpage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user navigates to \"https://en.wikipedia.org/w/index.php?search\" page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "verify that the page title is \"Search - Wikipedia\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user searches for \"Google\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "verify that user sees the results for \"Google\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@adjust"
+          }
+        ]
+      }
+    ],
+    "name": "Adjust Task",
+    "description": "",
+    "id": "adjust-task",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/adjust.feature",
+    "tags": []
+  }
+]
